@@ -19,6 +19,11 @@ While building this project I practiced:
 - State-driven UI rendering  
 - Local storage data storage  
 
+## Technologies Used
+- HTML
+- CSS
+-JavaScript
+
 ## Screenshot
 ![Task Manager Screenshot](screenshot.png)
 
