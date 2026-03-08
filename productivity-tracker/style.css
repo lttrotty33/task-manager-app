@@ -1,0 +1,108 @@
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background: #f4f4f4;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.container {
+  background: white;
+  width: 90%;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+button:hover {
+  background-color: #3b5bdb;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #f1f3f5;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.filters {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters button {
+  flex: 1;
+  margin: 0 5px;
+  background-color: #3498db;
+}
+
+.filters button:hover {
+  background-color: #2980b9;
+}
+
+.filters button.active {
+  background-color: #28a745;
+  font-weight: 600;
+  color: white;
+}
+
+.active {
+    background-color: #333;
+    font-weight: 600;
+    color: white;
+}
+
+#taskCounter {
+  margin-top: 10px;
+ font-size: 14px;
+}
+
+#clearCompleteBtn {
+  margin-top: 10px;
+}
