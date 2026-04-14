@@ -1,0 +1,84 @@
+# 💰 Creator Profit Tracker
+
+A simple and customizable income & expense tracker built for creators, small businesses, and side hustlers.
+
+Track your money, organize categories, and understand your profits — all in one clean interface.
+
+---
+
+## 🚀 Live Demo
+👉 https://YOUR-USERNAME.github.io/creator-profit-tracker/
+
+---
+
+## 📸 Screenshots
+
+### Dashboard Overview
+![Main Dashboard](screenshot1.png)
+
+### Custom Categories & Breakdown
+![Categories & Analytics](screenshot2.png)
+
+---
+
+## ✨ Features
+
+- ✅ Add income and expenses
+- 📊 Automatic profit calculation
+- 🗂️ Custom categories (add & delete your own)
+- 🔍 Filter transactions by category
+- 📈 Category breakdown analytics
+- 💾 Saves data locally (no login required)
+- 📤 Export transactions to CSV
+- ⚡ Fast, lightweight, and easy to use
+
+---
+
+## 💡 Why This App?
+
+Most finance trackers are:
+- Too complicated
+- Not built for creators
+- Overloaded with features you don’t need
+
+This app is designed to be:
+✔ Simple  
+✔ Customizable  
+✔ Focused on real-world creator income  
+
+Perfect for:
+- Etsy sellers
+- Amazon FBA sellers
+- Freelancers
+- Side hustlers
+
+---
+
+## 🛠️ Built With
+
+- HTML
+- CSS
+- JavaScript
+- Web Storage API (localStorage)
+
+---
+
+## 📦 How to Use
+
+1. Download or clone the repo
+2. Open `index.html` in your browser
+3. Start adding your income and expenses
+
+No installation or setup required.
+
+## 📄 License
+
+This project is for personal use and portfolio demonstration only.
+
+You may not copy, resell, or redistribute this code without permission.
+
+---
+
+## 👩‍💻 Author
+
+Built by Lakesha Trotty  

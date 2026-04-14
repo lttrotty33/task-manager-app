@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creator Profit Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Creator Profit Tracker</h1>
+
+    <p style="font-size: 14px; color: #666;">
+💡 Tip: Add your own categories (Etsy, Amazon, Bills, etc.) to customize your tracker.
+    </p>
+
+    <input type="text" id="description" placeholder="Description">
+    <input type="number" id="amount" placeholder="Amount">
+
+    <select id="category"></select>
+
+    <button onclick="addIncome()">Add Income</button>
+    <button onclick="addExpense()">Add Expense</button>
+
+    <h2>Summary</h2>
+    <p>Income: $<span id="income">0</span></p>
+    <p>Expenses: $<span id="expenses">0</span></p>
+    <p><strong>Profit: $<span id="profit">0</span></strong></p>
+
+    <h2>Category Breakdown</h2>
+    <ul id="categoryBreakdown"></ul>
+
+    <h3>Manage Categories</h3>
+    <input type="text" id="newCategory" placeholder="New category">
+    <button onclick="addCategory()">Add Category</button>
+
+    <select id="deleteCategory"></select>
+    <button onclick="deleteCategory()">Delete Category</button>
+
+    <button onclick="exportCSV()">Export CSV</button>
+
+    <div class="filters" id="filterContainer"></div>
+
+    <ul id="list"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
